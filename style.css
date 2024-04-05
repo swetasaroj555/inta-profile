@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    gap: 80px;
+    overflow-y: scroll;
+}
+
+.side-panel {
+    width: 24dvw;
+    height: 100dvh;
+    border-right: 1px solid lightgray;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    width: 131px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.content {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 10px 10px;
+    margin: 10px 15px;
+}
+
+.content-text {
+    font-size: 16px;
+}
+
+.main {
+    width: 100%;
+}
+
+.photo {
+    width: 107px;
+    border-radius: 50%;
+    border: 1px solid rgb(228, 228, 228);
+    padding: 20px;
+}
+
+.top {
+    display: flex;
+    gap: 60px;
+    margin: 20px 30px;
+    /* align-items: center; */
+
+}
+
+.top-photo {
+    padding: 50px;
+}
+
+/* .top-side-content {
+    width: 40%;
+} */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    gap: 5px;
+}
+
+.btn {
+    font-size: 15px;
+    padding: 6px 19px;
+    border-radius: 6px;
+    border: none;
+    text-align: center;
+}
+
+.btn-2 {
+    padding: 6px 10px;
+}
+
+.text {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-right: 10px;
+}
+
+.bg-blue {
+    background-color: rgb(89, 146, 253);
+    color: white;
+}
+
+.follow-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px 0;
+
+}
+
+.follow-panel-content {
+    display: flex;
+    gap: 4px;
+}
+
+.p-no {
+    font-weight: 600;
+}
+
+.text-1 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.text-thread {
+    display: flex;
+    width: 60px;
+    align-items: baseline;
+    border-radius: 15px;
+    background-color: rgb(236, 236, 236);
+    /* display: inline-block; */
+    padding: 3px 5px;
+    font-size: 12px;
+    gap: 3px;
+    margin: 6px 0;
+}
+
+.text-2 {
+    font-size: 14px;
+    color: grey;
+}
+
+.text-3 {
+    font-size: 14px;
+}
+
+.link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(2, 2, 117);
+}
+
+.bottom-panel {
+    margin-top: 20px;
+}
+
+.story-panel {
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    margin-left: 40px;
+}
+
+.story-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-overflow: ellipsis;
+    gap: 6px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.story {
+
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.story-body {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 3px;
+    border: .8px solid rgb(207, 207, 207);
+
+}
+
+.bg-color-1 {
+    background: rgb(70, 127, 252);
+}
+
+.bg-color-2 {
+    background: linear-gradient(to right, rgb(101, 145, 238), rgb(199, 214, 255))
+}
+
+.bg-color-3 {
+    background: rgb(243, 59, 52);
+}
+
+.bg-color-4 {
+    background: rgb(253, 197, 11);
+}
+
+.bg-color-5 {
+    background: rgb(34, 170, 41);
+}
+
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    border-top: 1px solid lightgray;
+    margin-right: 70px;
+}
+
+.main-content-panel {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+
+}
+
+.main-content-panel-box {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 15px 0;
+    border-top: 1px solid rgb(88, 88, 88);
+}
+
+.main-content-text {
+    font-size: 14px;
+    font-weight: 600;
+    /* color: rgb(88, 88, 88) ; */
+}
+
+.border-none {
+    border: none;
+}
+
+.opacity {
+    opacity: .7;
+}
+
+.main-content-cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.main-img {
+    width: 32%;
+    padding: 2px;
+}
+
+.main-img:hover {
+    filter: brightness(70%);
+}
+
+.content:hover{
+    background: rgb(243, 243, 243);
+    border-radius: 6px;
+    /* margin: 5px 10px; */
+}
